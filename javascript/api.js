@@ -423,5 +423,7 @@ i.rotate(null)}:function(){t=j.selected;n()});if(d){this.element.bind("tabsshow"
 $( init );
 
 function init() {
-    $('.draggable').draggable();
+    $('.draggable').draggable({
+        touch: true,  
+    });
 }
